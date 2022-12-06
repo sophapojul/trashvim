@@ -31,7 +31,7 @@ local options = {
 	wrap = false,
 	scrolloff = 8,
 	sidescrolloff = 8,
-	guicursor = "",
+	--[[ guicursor = "", ]]
 }
 
 for k, v in pairs(options) do
@@ -43,3 +43,5 @@ vim.cmd([[set iskeyword+=-]])
 vim.cmd([[set t_Co=256]])
 
 vim.opt.shortmess:append("c")
+vim.opt.iskeyword:append("-")
+vim.opt.clipboard:append("unnamedplus")
