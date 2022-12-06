@@ -64,6 +64,7 @@ return packer.startup(function(use)
 
 	-- Colorscheme
 	use({ "catppuccin/nvim", as = "catppuccin" })
+	use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
 
 	-- Treesitter
 	use("nvim-treesitter/nvim-treesitter")
@@ -90,8 +91,8 @@ return packer.startup(function(use)
 	use("L3MON4D3/LuaSnip")
 	use("rafamadriz/friendly-snippets")
 	use("onsails/lspkind.nvim")
-  use("zbirenbaum/copilot.lua")
-  use("zbirenbaum/copilot-cmp")
+	use("zbirenbaum/copilot.lua")
+	use("zbirenbaum/copilot-cmp")
 
 	-- LSP
 	use("williamboman/mason.nvim")
