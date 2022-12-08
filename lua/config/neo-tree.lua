@@ -15,6 +15,8 @@ import("neo-tree", function(neoTree)
 		},
 		filesystem = {
 			filtered_items = {
+				visible = true,
+				hide_dotfiles = false,
 				always_show = {
 					".gitignore",
 				},
